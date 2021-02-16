@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MGL Project Brief</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <div class="container">
+        <!-- INTRO SECTION -->
+        <section id="intro" class="sub-container">
+            <header>
+                <div id="name1" class="roboto">
+                    <span class="bold">ALDEN</span> CASAS
+                </div>
+                <div id="nav">
+                    <ul class="bold">
+                        <li><a href="#about-section-container">ABOUT ALDEN</a></li>
+                        <li><a href="#buy-sell-section">BUY OR SELL</a></li>
+                        <li><a href="#contact-me-section">CONTACT ME</a></li>
+                    </ul>
+                </div>
+            </header>
+            <div id="intro-content">
+                <p id="intro-line1" class="roboto">GREATER LAS VEGAS REAL ESTATE</p>
+                <div id="intro-sub-content">
+                    <p id="intro-line2">FIND YOUR</p>
+                    <p id="intro-line3" class="bold">DREAM HOME</p>
+                    <a href="#contact-me-section">
+                        <button class="button contact-me-button">
+                            CONTACT ME
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </section>
+    
+        <!-- FEATURED HOMES -->
+        <section id="ft-homes-section" class="sub-container">
+            <div>
+                <h3 class="roboto">LAS VEGAS, HENDERSON, SUMMERLIN + MORE</h3>
+                <h2><span class="bold">FEATURED</span> HOMES FOR SALE</h2>
+                <div id="divider1" class="divider animate-on-scroll"></div>
+            </div>
+        </section>
+
+        <div id="ft-homes">
+            <!-- home cards will be created dynamically here -->
+        </div>
+
+        <!-- ABOUT SECTION -->
+        <section id="about-section-container">
+            <div id="about-section">
+                <div id="about-section-img-container">
+                    <img src="Assests/agent.png" class="animate-on-scroll">
+                </div>
+                <div id="about-content">
+                    <div>
+                        <p id="name2" class="roboto"><span class="bold">ALDEN</span> CASAS</p>
+                        <p id="lic-realtor" class="roboto">LICENSED REALTOR&reg; (# 0.547777)</p>
+                        <div id="divider2" class="divider animate-on-scroll"></div>
+                        <div id="about-text" class="roboto">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </div>
+                        <a href="#contact-me-section">
+                            <button class="button contact-me-button">
+                                CONTACT ME
+                            </button>
+                        </a>
+                    </div>  
+                </div>
+                <img id="mobile-img" src="Assests/agent.png" class="animate-on-scroll">
+            </div>
+        </section>
+
+        <!-- TESTIMONIAL SECTION -->
+        <section class="sub-container">
+            <h3 class="roboto">CLIENT</h3>
+            <h2><span class="bold">TESTIMONIALS</span></h2>
+            <div id="divider3" class="divider animate-on-scroll"></div>
+            <div id="testimonials-list">
+                <div class="chevron">
+                    <img id="prev-btn" src="Assests/lnr-chevron-left.png">
+                </div>
+                <div id="testimonials">
+                    <!-- testimonials are added dynamically here -->
+                </div>
+                <div class="chevron">
+                    <img id="next-btn" src="Assests/lnr-chevron-right.png">
+                </div>
+                </div>
+        </section>
+
+        <!-- BUY OR SELL SECTION -->
+        <section id="buy-sell-section">
+            <div class="buy-sell-section">
+                <img src="Assests/purchase.png">
+                <div id="buy" class="buy-sell-div">
+                    <p class="buy-sell-heading"><b>PURCHASE</b></p>
+                    <p class="buy-sell-heading">A HOME</p>
+                    <div class="divider buy-sell-divider animate-on-scroll"></div>
+                    <div class="roboto buy-sell-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</div>
+                    <a href="#contact-me-section">
+                        <button class="button" id="get-started-button">GET STARTED</button>
+                    </a>
+                </div>
+            </div>
+            <div class="buy-sell-section">
+                <div id="sell" class="buy-sell-div">
+                    <p class="buy-sell-heading"><b>LIST</b></p>
+                    <p class="buy-sell-heading">A HOME</p>
+                    <div class="divider buy-sell-divider animate-on-scroll"></div>
+                    <div class="roboto buy-sell-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</div>
+                    <a href="#contact-me-section">
+                        <button class="button" id="list-button">GET A FREE HOME ESTIMATE</button>
+                    </a>
+                </div>
+                <img src="Assests/sell.png">
+            </div>
+        </section>
+
+        <!-- CONTACT ME SECTION -->
+        <section id="contact-me-section" class="sub-container">
+            <h3 id="contact-heading1" class="roboto">I AM AVAILABLE</h3>
+            <h2><span class="bold">CONTACT ME</span> TODAY</h2>
+            <div id="divider4" class="divider animate-on-scroll"></div>
+        </section>
+
+        <!-- CONTACT INFO SECTION -->
+        <section id="contact-info" class="sub-container">  
+            <div id="contacts" class="roboto">
+                <div>
+                    <img id="phone-icon" src="Assests/phone-solid.png">
+                    <p>DIRECT PHONE #</p>
+                    <p>702-123-4567</p>
+                </div>
+                <div>
+                    <img id="email-icon" src="Assests/envelope-regular.png">
+                    <p>EMAIL ME</p>
+                    <p>EMAIL@MAIL.COM</p>
+                </div>
+                <div>
+                    <img id="map-icon" src="Assests/map-marker-alt-solid.png">
+                    <p>OFFICE</p>
+                    <p>REALTY OFFICE</p>
+                </div>
+            </div>
+
+            <h3 id="contact-heading3" class="roboto">SCHEDULE A FREE</h3>
+            <h2 id="contact-heading4"><span class="bold">HOME CONSULTATION</span></h2>
+            <form id="contact-form">
+                <div class="form-div">
+                    <div class="input-field">
+                        <input id="name" name="name" type="text" placeholder="NAME">
+                        <i class="fas fa-exclamation-circle"></i>
+                    </div>
+                    <div class="input-field">
+                        <input id="email" name="email" type="email" placeholder="EMAIL">
+                        <i class="fas fa-exclamation-circle"></i>
+                    </div>
+                </div>
+                <div class="form-div">
+                    <div class="input-field">
+                        <input id="phone" name="phone" type="tel" placeholder="PHONE">
+                        <i class="fas fa-exclamation-circle"></i>
+                    </div>
+                    <div class="input-field">
+                        <input id="option" name="option" type="text" placeholder="OPTION">
+                        <i class="fas fa-exclamation-circle"></i>
+                    </div>
+                </div>
+                <div class="textarea-field">
+                    <textarea id="message" name="message" placeholder="MESSAGE"></textarea>
+                    <i class="fas fa-exclamation-circle"></i>
+                </div>
+                <button id="submit" class="button">SUBMIT</button>
+            </form>
+        </section>  
+
+        <!-- FOOTER HOMES SECTION -->
+        <section id="footer-homes-section">
+            <img class="footer-homes" src="Assests/homes1.png">
+            <img class="footer-homes" src="Assests/homes2.png">
+            <img class="footer-homes" src="Assests/homes3.png">
+            <img class="footer-homes" src="Assests/homes4.png">
+            <img class="footer-homes" src="Assests/homes5.png">
+        </section>
+        
+        <!-- FOOTER -->
+        <footer class="sub-container">
+            <div id="footer-info">
+                <div id="footer-name" class="footer-info-div">
+                    <p id="name3" class="roboto animate-on-scroll"><b>ALDEN</b> CASAS</p>
+                    <div>
+                        <a href="https://facebook.com" target="blank"><img class="brand-icons" src="Assests/facebook-square-brands.png"></a>
+                        <a href="https://instagram.com" target="blank"><img class="brand-icons" src="Assests/instagram-brands.png"></a>
+                        <a href="https://youtube.com" target="blank"><img class="brand-icons" src="Assests/youtube-brands.png"></a>
+                        <a href="https://linkedin.com" target="blank"><img class="brand-icons" src="Assests/linked-in-brands.png"></a>
+                    </div>
+                </div>
+                <div id="footer-menu" class="footer-info-div">
+                    <ul class="roboto">
+                        <li><a href="#about-section-container">About Alden</a></li>
+                        <li><a href="#ft-homes-section">Search homes</a></li>
+                        <li><a href="#buy-sell-section">Buy or Sell</a></li>
+                        <li><a href="#contact-me-section">Contact Me</a></li>
+                    </ul> 
+                </div>
+                <div id="map-section" class="footer-info-div">
+                    <div id="map-section-address">
+                        <p id="map-section-title">REALTY OFFICE</p>
+                        <div id="realty-address" class="roboto">
+                            <p>123 Street</p>
+                            <p>City, State 89077</p>
+                            <a href="https://goo.gl/maps/7Jw8sojMndCTha256" target="blank">Get Directions</a>
+                        </div>
+                    </div>
+                    <!-- <img id="map" src="Assests/map.png"> -->
+                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8868.69591966191!2d-115.0692142412465!3d36.009651467237646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8d18c0153dc47%3A0xf6147955797ccfb2!2sSimply%20Vegas%20Green%20Valley!5e0!3m2!1sen!2sus!4v1601312798850!5m2!1sen!2sus" 
+                            width="200" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+            <hr>
+            <div id="copyright" class="roboto">&copy; No Rights Reserved - Project Brief</div>
+        </footer>
+
+        <!-- GO TO TOP BUTTON (SHOWN ON SCROLL)-->
+        <button onclick="goToTop()" id="topButton" title="Go to top">
+            <i class="fas fa-arrow-circle-up fa-3x"></i>
+        </button>
+    </div>      
+
+    <script type="text/javascript" src="scripts/topButton.js"></script>
+    <script type="text/javascript" src="scripts/featuredHomes.js"></script>
+    <script type="text/javascript" src="scripts/testimonials.js"></script>
+    <script type="text/javascript" src="scripts/contactInfo.js"></script>
+    <script type="text/javascript" src="scripts/animations.js"></script>
+    <script type="text/javascript" src="scripts/main.js"></script>
+  </body>
+</html>
